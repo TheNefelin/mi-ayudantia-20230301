@@ -8,6 +8,7 @@ btnPrueba.addEventListener("click", () => {
     
     const numVer = new Rut();
     txtNumVer.value = numVer.getNumVerificador(txtRut.value);
+    console.log(numVer)
 });
 
 const btnGetPokemon = document.querySelector(".cardPokemon > button");
